@@ -1,0 +1,28 @@
+#macro FIVE 3
+#macro THREE FIVE
+
+THREE FIVE
+
+#macro x HiFromX
+#macro A(x,y) x->y
+
+A(x,4)
+
+#macro StringMe abcdefg
+#macro STR(x) "x"
+
+STR(String Me)
+STR(StringMe)
+
+#macro Test(A) HiFromTest
+
+#macro arg A(x,HiFromY)
+
+STR(arg)
+
+STR(A(x,HiFromY))
+
+example of empty arguments:
+STR(A(STR(A(,)),))
+
+A(A,4)
