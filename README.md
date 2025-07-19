@@ -11,6 +11,7 @@ So I decided I should work on my own macro system, and then it hit me, a macro s
 A macro system simply needs to process text, nothing more.
 
 Simple Example:
+```c
 ----- INPUT -----
 #macro FIVE 3
 #macro THREE FIVE
@@ -68,3 +69,4 @@ example of empty arguments:
 
 A->4
 ----- OUTPUT -----
+```
