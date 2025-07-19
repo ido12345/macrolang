@@ -94,7 +94,7 @@ const char *TokenTypeName(TokenType t) {
         case TokenNone: return "None";
         case TokenNewline: return "Newline";
         case TokenWhitespace: return "Whitespace";
-        // case TokenText: return "Text";
+        case TokenText: return "Text";
         case TokenSymbol: return "Symbol";
         case TokenNumber: return "Number";
         case TokenMacroKeyword: return "Macro Keyword";
